@@ -2,7 +2,7 @@
 
 GAME_NAME=${1:-game}
 
-if [ -d "build" ]
+if [ -d "build" ]; then
     rm -r build
 fi
 
